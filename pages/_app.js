@@ -6,6 +6,7 @@ import { ChakraProvider } from '@chakra-ui/react';
 import Layout from '../components/Layout';
 
 function MyApp({ Component, pageProps }) {
+  // Page loading line
   NProgress.configure({ showSpinner: false });
 
   Router.events.on('routeChangeStart', () => {
